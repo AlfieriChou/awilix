@@ -4,6 +4,7 @@
   "description": "IoC",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/AlfieriChou/awilix/issues"
   },
-  "homepage": "https://github.com/AlfieriChou/awilix#readme"
+  "homepage": "https://github.com/AlfieriChou/awilix#readme",
+  "dependencies": {
+    "awilix": "^4.0.1",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
 }
